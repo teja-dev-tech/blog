@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+
+<div class="content">
+  <h1><%=title%></h1>
+  <p><%=content%></p>
+</div>
+<% if ( message ) { %>
+<script>
+  var compose = document.getElementById("compose");
+  compose.innerHTML = '<a href="/compose"> COMPOSE </a>';
+</script>
+<% } %> <%- include("partials/footer"); -%>
