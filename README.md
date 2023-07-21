@@ -1,5 +1,5 @@
 # blog
-simple blog website using HTML, CSS, nodejs , ejs partials 
+simple blog website using HTML, CSS, nodejs , ejs partials and mongoDB to store posts and user credentials with bcrypt and json web tokens
 
 HOME PAGE
 ![image](https://github.com/teja-dev-tech/blog/assets/135051682/bef73c68-1f18-4464-a154-7fa5a9a7a10a)
