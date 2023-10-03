@@ -17,7 +17,7 @@
     "express.js": "^1.0.0",
     "jsonwebtoken": "^9.0.1",
     "lodash": "^4.17.21",
-    "mongoose": "^7.3.1",
+    "mongoose": "^14.20.1",
     "nodemon": "^3.0.1"
   }
 }
