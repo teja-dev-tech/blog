@@ -53,13 +53,17 @@ const Reg = mongoose.model("Reg", regSchema);
 
 app.get("/", function (req, res) {
   // Find all items in the Posts collection and render it into our home page.
+  try{
   Post.find().then((posts) => {
     res.render("home", {
       startingContent: homeStartingContent,
       posts: posts,
       message: "",
     });
-  });
+  });}
+  catch (err) {
+    next(err);
+  }
 });
 app.get("/about", function (req, res) {
   res.render("about", { aboutContent: aboutContent });
